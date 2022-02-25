@@ -62,11 +62,12 @@ body {
   display: block;
 }
 .fa-bars {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
   font-size: 30px;
-  display: none;
+  opacity: 0;
 }
 .main {
   display: flex;
@@ -231,6 +232,7 @@ span {
   }
   .fa-bars {
     display: block;
+    opacity: 1;
   }
   .product {
     display: none;
